@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Rota da nova entidade
+
 const manutencaoRoutes = require('./routes/manutencaoRoutes');
 app.use('/api/manutencoes', manutencaoRoutes);
 

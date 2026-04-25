@@ -1,4 +1,4 @@
-const API_URL = 'https://SEU-BACKEND-NO-RENDER.onrender.com/api/manutencoes'; // MUDE ISSO NO DEPLOY
+const API_URL = 'https://app-pet-ub14.onrender.com/api/manutencoes';
 // const API_URL = 'http://localhost:5000/api/manutencoes'; // Use esta linha para testar localmente primeiro
 
 const form = document.getElementById('form-manutencao');
